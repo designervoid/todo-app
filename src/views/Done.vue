@@ -1,13 +1,17 @@
 <template lang="html">
-  <section>
-    done
-  </section>
+  <TheTasks :tasks="doneTasks" :isTasksDone="true"/>
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
+import TheTasks from '@/components/TheTasks.vue'
+
 export default {
+  components: {
+    TheTasks
+  },
+  computed: {
+    ...mapGetters('tasks', ['doneTasks'])
+  }
 }
 </script>
-
-<style lang="css" scoped>
-</style>

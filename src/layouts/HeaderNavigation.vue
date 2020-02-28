@@ -25,5 +25,10 @@ export default {
 .navigation {
   display: flex;
   justify-content: space-around;
+  padding-inline-start: 0;
 }
+li {
+  list-style-type: none;
+}
+
 </style>

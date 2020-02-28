@@ -1,3 +1,3 @@
-export const ADD_TODO = "ADD_TODO";
-export const EDIT_TODO = "EDIT_TODO";
-export const REMOVE_TODO = "REMOVE_TODO";
+export const ADD_TASK = "ADD_TASK";
+// export const EDIT_TASK = "EDIT_TASK";
+export const REMOVE_TASK = "REMOVE_TASK";
